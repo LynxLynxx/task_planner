@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:task_planner/screens/calendar/calendar_page.dart';
 
 import '../../../constants.dart';
 
@@ -23,7 +24,12 @@ class TitleWithButton extends StatelessWidget {
             ),
             Spacer(),
             RawMaterialButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => CalendarPage()),
+                );
+              },
               elevation: 2.0,
               fillColor: LightColors.kGreen,
               shape: CircleBorder(),

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:percent_indicator/circular_percent_indicator.dart';
-import 'package:task_planner/constants.dart';
 import 'package:task_planner/screens/home/components/progress_chart.dart';
 import 'package:task_planner/screens/home/components/title_and_icons.dart';
 import 'header_with_avatar.dart';
