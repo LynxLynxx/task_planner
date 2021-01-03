@@ -14,11 +14,11 @@ class HeaderWithAvatar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: size.height * 0.21,
+      height: size.height * 0.18,
       child: Stack(
         children: [
           Container(
-            height: size.height * 0.19,
+            height: size.height * 0.15,
             decoration: BoxDecoration(
               color: LightColors.kDarkYellow,
               borderRadius: BorderRadius.only(

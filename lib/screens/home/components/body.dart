@@ -36,7 +36,7 @@ class Body extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(top: 8.0),
-            child: TitleWithCustomUnderLine(text: "Activite Projects"),
+            child: TitleWithCustomUnderLine(text: "Active Projects"),
           ),
           Column(
             children: [

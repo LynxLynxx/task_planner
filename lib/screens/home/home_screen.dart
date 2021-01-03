@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:task_planner/constants.dart';
+import 'package:task_planner/services/auth.dart';
 
 import 'components/body.dart';
 
 class HomeScreen extends StatelessWidget {
+  final AuthService _auth = AuthService();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,12 +28,17 @@ class HomeScreen extends StatelessWidget {
         ),
       ),
       actions: [
-        Padding(
-          padding: const EdgeInsets.only(right: 8.0),
-          child: Icon(
-            Icons.search,
-            color: LightColors.kDarkBlue,
-            size: 25.0,
+        GestureDetector(
+          onTap: () async {
+            await _auth.signOut();
+          },
+          child: Padding(
+            padding: const EdgeInsets.only(right: 8.0),
+            child: Icon(
+              Icons.logout,
+              color: LightColors.kDarkBlue,
+              size: 25.0,
+            ),
           ),
         ),
       ],

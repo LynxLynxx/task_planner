@@ -16,3 +16,24 @@ class LightColors {
 }
 
 const double kDefaultPadding = 20.0;
+
+const textInputDecoration = InputDecoration(
+  fillColor: Colors.white,
+  filled: true,
+  border: OutlineInputBorder(
+    borderRadius: BorderRadius.all(Radius.circular(90.0)),
+    borderSide: BorderSide(color: Colors.transparent),
+  ),
+  focusedBorder: OutlineInputBorder(
+    borderRadius: BorderRadius.all(Radius.circular(90.0)),
+    borderSide: BorderSide(color: Colors.transparent),
+  ),
+  prefixIcon: Icon(
+    Icons.mail,
+    color: Colors.grey,
+  ),
+  enabledBorder: OutlineInputBorder(
+    borderRadius: BorderRadius.all(Radius.circular(90.0)),
+    borderSide: BorderSide(color: Colors.transparent),
+  ),
+);
