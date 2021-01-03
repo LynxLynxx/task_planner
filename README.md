@@ -4,7 +4,7 @@ This App is built in Flutter. App UI is based on [Task Planner App](https://drib
 
 # Screenshots of an App.
 
-<img src="./screenshots/Screenshot_1609696472.png" alt="drawing" width="200"/>
-<img src="./screenshots/Screenshot_1609696474.png" alt="drawing" width="200"/>
-<img src="./screenshots/Screenshot_1609696461.png" alt="drawing" width="200"/>
-<img src="./screenshots/Screenshot_1609697288.png" alt="drawing" width="200"/>
+<img src="./screenshots/Screenshot_1609696472.png" alt="drawing" width="150"/>
+<img src="./screenshots/Screenshot_1609696474.png" alt="drawing" width="150"/>
+<img src="./screenshots/Screenshot_1609696461.png" alt="drawing" width="150"/>
+<img src="./screenshots/Screenshot_1609697288.png" alt="drawing" width="150"/>
